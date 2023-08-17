@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width:100%;
+    background-image:linear-gradient( blue, black);
+    overflow: hidden;
+}
+
+#container{
+   display: flex;
+   flex-direction: column;
+}
+
+
+#icons{
+   display: flex;
+   flex-basis: row;
+}
+#i1{
+    cursor: pointer;
+    font-size: 60px;
+    color: skyblue;
+}
+#i1:hover{
+
+    transition:transform 0.2s;
+    transform: scale(1.08);
+}
+#i2{
+    cursor: pointer;
+    font-size: 60px;
+    margin:45px;
+    margin-top: 2px;
+    color:palevioletred;
+}
+#i2:hover{
+    transition: transform 0.2s;
+    transform: scale(1.08);
+}
+#i3{
+    cursor: pointer;
+    font-size: 60px;
+    margin:30px;
+    margin-top: 2px;
+    color:grey;
+    
+    
+}
+#i3:hover{
+    transition: transform 0.2s;
+    transform: scale(1.08);
+    
+}
+#i4{
+    cursor: pointer;
+    font-size: 60px;
+    margin:35px;
+    margin-top: 2px;
+    color:red;
+
+}
+#i4:hover{
+    transition: transform 0.2s;
+    transform: scale(1.08);
+}
+#i5{
+    cursor: pointer;
+    font-size: 60px;
+    margin:35px;
+    margin-top: 2px;
+}
+#i5:hover{
+    transition: transform 0.2s;
+    transform: scale(1.08);
+}
+#i6{
+    cursor: pointer;
+    font-size: 60px;
+    margin:35px;
+    margin-top: 2px;
+}
+#i6:hover{
+    transition: transform 0.2s;
+    transform: scale(1.08);
+}
+#about{
+    color: aquamarine;
+    font-size: 35px;
+    margin-top: 7%;
+    margin-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    padding-left: 200px;
+   top: 500px;
+   
+}
+
+#ai{
+   display: flex;
+   flex-basis: row;
+}
+#email{
+    height: 130px;
+    width: 600px;
+    border: 1px solid white;
+    display: flex;
+    margin-left: 20px;
+}
+#emailid{
+    font-size:20px;
+    margin:10px;
+}
+#r{
+    color:aqua;
+}
+#int{
+    color: aquamarine;
+    font-size: 35px;
+    margin-left: 2%;
+}
+#heading{
+    color:red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
